@@ -1,4 +1,4 @@
 USE cardealership;
 SELECT *
-FROM inventory
-WHERE dealership_id = 2222;
+FROM vehicles
+WHERE VIN = "52G4H4H";

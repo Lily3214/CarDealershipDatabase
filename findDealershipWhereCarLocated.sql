@@ -1,3 +1,4 @@
+-- step 4 no.4
 USE cardealership;
 SELECT dealerships.name 
 FROM dealerships 

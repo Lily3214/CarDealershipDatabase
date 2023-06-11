@@ -1,3 +1,4 @@
+-- step 4 no.3
 USE cardealership;
 SELECT *
 FROM vehicles

@@ -1,3 +1,4 @@
+-- step 4 no.5
 SELECT dealerships.name 
 FROM dealerships 
 JOIN inventory ON dealerships.dealership_id = inventory.dealership_id 

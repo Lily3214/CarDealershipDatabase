@@ -30,6 +30,7 @@ CREATE TABLE sales_contracts (
   year VARCHAR(50),
   purchasePrice VARCHAR(50),
   VIN VARCHAR(17),
+  dealer_name VARCHAR(17),
   FOREIGN KEY (VIN) REFERENCES vehicles(VIN)
 );
 
@@ -54,9 +55,9 @@ VALUES (1, "1HGD1234"),
 (3, "52G4H4H");
 
 -- sales_contracts
-INSERT INTO sales_contracts (id, year, purchasePrice, VIN)
-VALUES (8545, "2023-06-09", 7900.00, "1HGD1234"),
-(1235, "2017-06-15", 2320.00, "52G4H4H");
+INSERT INTO sales_contracts (id, year, purchasePrice, VIN, dealer_name)
+VALUES (8545, "2023-06-09", 7900.00, "1HGD1234", "Leonardo"),
+(1235, "2017-06-15", 2320.00, "52G4H4H", "Francesco");
 
 
 
